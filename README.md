@@ -2,6 +2,7 @@
 The code implementation of paper "Multi-stage Spatial-Spectral Fusion Network for Spectral Super-Resolution".
 
 # Data Preparation
+You can find
 
 # Train
 
@@ -16,6 +17,11 @@ The code implementation of paper "Multi-stage Spatial-Spectral Fusion Network fo
 ```
 
 # Test
+Download the pretrained model for NTIRE2022: ([here](https://drive.google.com/file/d/1cCmo_NPgwcP1R6wvGD9uDcP7IKdU0Ue8/view?usp=drive_link))
+
+Download the pretrained model for NTIRE2020: ([here](https://drive.google.com/file/d/1DqafMHGSMTJvs2dz1Z2c6oGHd-VJotSA/view?usp=drive_link))
+
+Make sure that you place them in the right place.
 
 【NTIRE2022】test.py
 ```
