@@ -27,7 +27,7 @@ You can find NTIRE2022 dataset from ([here](https://github.com/caiyuanhao1998/MS
                 |--test_list.txt
 ```
 
-Not uploading the NTIRE2020 dataset for no sufficient space in my cloud drive. I apologize.
+Not uploading the NTIRE2020 dataset for no sufficient space in my cloud drive.
 
 # Train
 
