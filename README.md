@@ -1,46 +1,6 @@
 # Multi-stage-Spatial-Spectral-Fusion-Network-for-Spectral-Super-Resolution
 The code implementation of paper "Multi-stage Spatial-Spectral Fusion Network for Spectral Super-Resolution".  
 
-# Environment
-```
-Python=3.8.18
-opencv-python==4.4.0.46
-einops
-torchvision==0.8.2
-torch==1.7.1
-scipy==1.0.0
-h5py
-hdf5storage
-tqdm
-torchinfo
-```
-
-# Train 
-
-【NTIRE2022】train.py
-
-```
---method MSFN --batch_size 20 --end_epoch 3 --init_lr 4e-4 --outf ./exp/MSFN/ --data_root ../dataset/NTIRE2022 --patch_size 128 --stride 8 --gpu_id 0
-```
-
-【NTIRE2020】train2020.py
-
-```
---method MSFN --batch_size 20 --end_epoch 5 --init_lr 4e-4 --outf ./exp/MSFN/ --data_root ../dataset/NTIRE2020 --patch_size 64 --stride 8 --gpu_id 0
-```
-
-# Test
-
-【NTIRE2022】test.py
-
-```
---data_root ../dataset/NTIRE2022/  --method MSFN --pretrained_model_path ../model_pth/MSFN/NTIRE2022/MSFN.pth --outf ./exp/2022/MSFN/ --gpu_id 0
-```
-
-【NTIRE2020】test2020.py
-
-```
---data_root ../dataset/NTIRE2020/  --method MSFN --pretrained_model_path ../model_pth/MSFN/NTIRE2020/MSFN.pth --outf ./exp/2020/MSFN/ --gpu_id 0
 ```
 
 # Citation
