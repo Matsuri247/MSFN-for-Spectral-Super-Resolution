@@ -4,8 +4,9 @@ The code implementation of paper "Multi-stage Spatial-Spectral Fusion Network fo
 # Train 
 
 【NTIRE2022】train.py
-
-`--method MSFN --batch_size 20 --end_epoch 3 --init_lr 4e-4 --outf ./exp/MSFN/ --data_root ../dataset/NTIRE2022 --patch_size 128 --stride 8 --gpu_id 0`
+```
+--method MSFN --batch_size 20 --end_epoch 3 --init_lr 4e-4 --outf ./exp/MSFN/ --data_root ../dataset/NTIRE2022 --patch_size 128 --stride 8 --gpu_id 0
+```
 
 【NTIRE2020】train2020.py
 
