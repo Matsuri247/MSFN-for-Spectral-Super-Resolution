@@ -16,11 +16,13 @@ You can find NTIRE2022 dataset from ([here](https://github.com/caiyuanhao1998/MS
                 |--ARAD_1K_0002.jpg
                 ： 
                 |--ARAD_1K_0950.jpg
-  	        |--Spec
+
+            |--Spec
                 |--ARAD_1K_0001.mat
                 |--ARAD_1K_0002.mat
                 ： 
                 |--ARAD_1K_0950.mat
+
             |--split_txt
                 |--train_list.txt
                 |--valid_list.txt
