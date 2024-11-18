@@ -2,7 +2,30 @@
 The code implementation of paper "Multi-stage Spatial-Spectral Fusion Network for Spectral Super-Resolution".
 
 # Data Preparation
-You can find
+You can find NTIRE2022 dataset from ([here](https://github.com/caiyuanhao1998/MST-plus-plus)). Make sure you place the dataset as the following form:
+
+```
+|--MSFN
+    |--model_pth
+    |--test_develop_code
+    |--train_code  
+    |--dataset 
+        |--NTIRE2022
+            |--RGB
+                |--ARAD_1K_0001.jpg
+                |--ARAD_1K_0002.jpg
+                ： 
+                |--ARAD_1K_0950.jpg
+  	        |--Spec
+                |--ARAD_1K_0001.mat
+                |--ARAD_1K_0002.mat
+                ： 
+                |--ARAD_1K_0950.mat
+            |--split_txt
+                |--train_list.txt
+                |--valid_list.txt
+                |--test_list.txt
+```
 
 # Train
 
