@@ -69,7 +69,6 @@ If you find this repo useful, please consider citing our works.
   volume={},
   number={},
   pages={1-11},
-  keywords={Image reconstruction;Correlation;Superresolution;Hyperspectral imaging;Spatial resolution;Convolutional neural networks;Attention mechanisms;Accuracy;Transformers;Tensors;Attention mechanism;hyperspectral image (HSI);spectral super-resolution (SSR)},
   doi={10.1109/TNNLS.2024.3460190}}
 ```
 
