@@ -2,7 +2,7 @@
 The code implementation of paper "Multi-stage Spatial-Spectral Fusion Network for Spectral Super-Resolution".
 
 # Data Preparation
-You can find NTIRE2022 dataset from ([here](https://github.com/caiyuanhao1998/MST-plus-plus)). Make sure you place the dataset as the following form:
+You can find NTIRE2022 dataset from ([here](https://github.com/caiyuanhao1998/MST-plus-plus)). Make sure you place the dataset as the following form (similar for NTIRE2020 dataset, too):
 
 ```
 |--MSFN
@@ -26,6 +26,8 @@ You can find NTIRE2022 dataset from ([here](https://github.com/caiyuanhao1998/MS
                 |--valid_list.txt
                 |--test_list.txt
 ```
+
+Not uploading the NTIRE2020 dataset for no sufficient space in my cloud drive. I apologize.
 
 # Train
 
