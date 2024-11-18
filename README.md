@@ -30,7 +30,7 @@ The code implementation of paper "Multi-stage Spatial-Spectral Fusion Network fo
 ```
 
 # Citation
-If this repo helps you, please consider citing our works.
+If you find this repo useful, please consider citing our works.
 ```
 @ARTICLE{msfn,
   author={Wu, Yaohang and Dian, Renwei and Li, Shutao},
