@@ -5,7 +5,27 @@ The code implementation of paper "Multi-stage Spatial-Spectral Fusion Network fo
 
 # Train
 
+【NTIRE2022】train.py
+```
+--method MSFN --batch_size 20 --end_epoch 3 --init_lr 4e-4 --outf ./exp/MSFN/ --data_root ../dataset/NTIRE2022 --patch_size 128 --stride 8 --gpu_id 0
+```
+
+【NTIRE2020】train2020.py
+```
+--method MSFN --batch_size 20 --end_epoch 5 --init_lr 4e-4 --outf ./exp/MSFN/ --data_root ../dataset/NTIRE2020 --patch_size 64 --stride 8 --gpu_id 0
+```
+
 # Test
+
+【NTIRE2022】test.py
+```
+--data_root ../dataset/NTIRE2022/  --method MSFN --pretrained_model_path ../model_pth/MSFN/NTIRE2022/MSFN_2022.pth --outf ./exp/2022/MSFN/ --gpu_id 0
+```
+
+【NTIRE2020】test2020.py
+```
+--data_root ../dataset/NTIRE2020/  --method MSFN --pretrained_model_path ../model_pth/MSFN/NTIRE2020/MSFN_2020.pth --outf ./exp/2020/MSFN/ --gpu_id 0
+```
 
 # Citation
 If you find this repo useful, please consider citing our works.
