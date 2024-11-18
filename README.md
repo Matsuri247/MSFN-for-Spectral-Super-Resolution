@@ -1,5 +1,5 @@
 # Multi-stage-Spatial-Spectral-Fusion-Network-for-Spectral-Super-Resolution
-The code implementation of paper "Multi-stage Spatial-Spectral Fusion Network for Spectral Super-Resolution".  
+The code implementation of paper "Multi-stage Spatial-Spectral Fusion Network for Spectral Super-Resolution".
 
 # Citation
 If you find this repo useful, please consider citing our works.
