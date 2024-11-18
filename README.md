@@ -59,4 +59,4 @@ If you find this repo useful, please consider citing our works.
 ```
 
 # Acknowledgement
-Thanks a lot for the outstanding work and dedication from ([[https://github.com/caiyuanhao1998/MST-plus-plus](https://github.com/caiyuanhao1998/MST-plus-plus)). The code structure and datasets are borrowed from MST++. We sincerely appreciate their contributions.
+Thanks a lot for the outstanding work and dedication from ([MST++](https://github.com/caiyuanhao1998/MST-plus-plus)). The code structure and datasets are borrowed from MST++. We sincerely appreciate their contributions.
