@@ -3,14 +3,23 @@ The code implementation of paper "Multi-stage Spatial-Spectral Fusion Network fo
 
 # Environment
 Python=3.8.18
+
 opencv-python==4.4.0.46
+
 einops
+
 torchvision==0.8.2
+
 torch==1.7.1
+
 scipy==1.0.0
+
 h5py
+
 hdf5storage
+
 tqdm
+
 torchinfo
 
 # Data Preparation
