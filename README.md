@@ -78,11 +78,12 @@ If you find this repo useful, please consider citing our works.
 @ARTICLE{msfn,
   author={Wu, Yaohang and Dian, Renwei and Li, Shutao},
   journal={IEEE Transactions on Neural Networks and Learning Systems}, 
-  title={Multistage Spatial–Spectral Fusion Network for Spectral Super-Resolution}, 
-  year={2024},
-  volume={},
-  number={},
-  pages={1-11},
+  title={Multistage Spatial-Spectral Fusion Network for Spectral Super-Resolution}, 
+  year={2025},
+  volume={36},
+  number={7},
+  pages={12736-12746},
+  keywords={Image reconstruction;Correlation;Superresolution;Hyperspectral imaging;Spatial resolution;Convolutional neural networks;Attention mechanisms;Accuracy;Transformers;Tensors;Attention mechanism;hyperspectral image (HSI);spectral super-resolution (SSR)},
   doi={10.1109/TNNLS.2024.3460190}}
 ```
 
